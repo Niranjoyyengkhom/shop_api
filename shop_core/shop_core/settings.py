@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '1d&#j)&5x31x*f7s-0xpd8%=x(31!&+k5lv%df6bim_(m9toh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["demo-shop-api.herokuapp.com"]
 
 
 # Application definition
